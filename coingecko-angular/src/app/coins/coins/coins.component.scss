@@ -1,0 +1,66 @@
+::ng-deep .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2e2e2e;
+  }
+
+::ng-deep .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::ng-deep .inputHome {
+  width: 300px; /* Largura do input */
+  height: 50px; /* Altura do input */
+  border-radius: 30px;
+  background-color: blanchedalmond;
+  color: black; /* Cor do texto */
+  font-size: 22px; /* Tamanho do texto */
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; /* Centraliza o texto */
+  padding: 10px; /* Espaçamento interno */
+  border: none; /* Remove a borda padrão */
+  outline: none; /* Remove a borda ao focar */
+  box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos nas dimensões totais */
+  margin-bottom: 20px; /* Espaçamento entre o input e a tabela */
+  margin-top: -250px;
+}
+
+::ng-deep .table-container {
+  width: 100%; /* Define a largura do contêiner da tabela */
+  display: flex;
+  justify-content: center;
+}
+
+::ng-deep .mat-elevation-z8 {
+  width: 100%; /* Faz com que a tabela ocupe toda a largura do contêiner */
+  max-width: 600px; /* Define uma largura máxima para a tabela */
+}
+
+::ng-deep .columnColor{
+  color: antiquewhite;
+}
+
+::ng-deep .button{
+  background-color: black;
+  color: aliceblue;
+  margin-right: center;
+  border-radius: 12px;
+  margin-top: 10px;
+  padding: 10px 32px;
+  font-size: 14px;
+}
+
+::ng-deep .container2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
